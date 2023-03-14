@@ -1,13 +1,13 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import { MdArrowBackIosNew } from 'react-icons/md';
+// import { NavLink } from 'react-router-dom';
+// import { MdArrowBackIosNew } from 'react-icons/md';
 
-import styles from '../styles/Navbar.module.css';
+// import styles from '../styles/Navbar.module.css';
 
 function Navbar() {
   return (
     <div>
-      <nav className={styles.navLinks}>
+      {/* <nav className={styles.navLinks}>
         <NavLink
           className={styles.navLink}
           to="/"
@@ -35,7 +35,7 @@ function Navbar() {
         >
           Details
         </NavLink>
-      </nav>
+      </nav> */}
     </div>
   );
 }

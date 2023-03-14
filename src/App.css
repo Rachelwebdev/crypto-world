@@ -1,8 +1,10 @@
 * {
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* background-color: #000;
-  color: #fff; */
   max-width: 375px;
+  margin: 0 auto;
+}
+
+.App {
+  text-align: center;
 }

@@ -6,7 +6,7 @@ import DetailsPage from './component/DetailsPage';
 import Home from './component/Home';
 import Navbar from './component/Navbar';
 import NotFound from './component/NotFound';
-import { fetchCoins } from './features/CoinSlice';
+import { fetchCoins } from './features/HomePage/CoinSlice';
 
 function App() {
   const dispatch = useDispatch();
@@ -22,7 +22,7 @@ function App() {
           element={<Home />}
         />
         <Route
-          path="/missions"
+          path="/details/:coinId"
           element={<DetailsPage />}
         />
         <Route
