@@ -1,0 +1,12 @@
+.coinContainer {
+  padding: 2rem;
+}
+
+.coinHeading {
+  margin-bottom: 0.5rem;
+}
+
+.coinCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

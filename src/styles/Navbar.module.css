@@ -2,6 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 2px solid white;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .navLink {
