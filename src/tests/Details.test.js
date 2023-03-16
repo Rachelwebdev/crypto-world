@@ -1,8 +1,8 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import DetailsPage from '../component/DetailsPage';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
+import DetailsPage from '../component/DetailsPage';
 import store from '../features/store';
 
 describe('Details Test', () => {
@@ -12,7 +12,7 @@ describe('Details Test', () => {
         <BrowserRouter>
           <DetailsPage />
         </BrowserRouter>
-      </Provider>
+      </Provider>,
     );
     expect(details).toMatchSnapshot();
   });
