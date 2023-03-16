@@ -3,7 +3,7 @@ import { useNavigate, useSearchParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { BsArrowUpRightSquare } from 'react-icons/bs';
 import styles from '../styles/Home.module.css';
-
+import { fetchDetails } from '../features/DetailsPage/DetailsPageSlice';
 import {
   fetchCoins,
   selectCoins,
@@ -21,10 +21,13 @@ function Home() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    dispatch(fetchCoins());
-  }, [dispatch]);
+    if (coinsStatus === 'idle') {
+      dispatch(fetchCoins());
+    }
+  }, [coinsStatus, dispatch]);
 
   const clickArrow = (id) => {
+    dispatch(fetchDetails(id));
     navigate(`/details/${id}`);
   };
 

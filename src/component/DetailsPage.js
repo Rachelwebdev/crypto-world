@@ -1,26 +1,19 @@
-import React, { useEffect } from 'react';
-import { useParams } from 'react-router-dom';
-import { useDispatch, useSelector } from 'react-redux';
+import React from 'react';
+
+import { useSelector } from 'react-redux';
 import DetailsPageNav from './DetailsPageNav';
 import styles from '../styles/DetailsPage.module.css';
 import {
-  fetchDetails,
   selectDetails,
   selectDetailsStatus,
   selectDetailsError,
 } from '../features/DetailsPage/DetailsPageSlice';
 
 function DetailsPage() {
-  const { id } = useParams();
-  const dispatch = useDispatch();
   const detail = useSelector(selectDetails);
 
   const detailStatus = useSelector(selectDetailsStatus);
   const detailsError = useSelector(selectDetailsError);
-
-  useEffect(() => {
-    dispatch(fetchDetails(id));
-  }, [dispatch, id]);
 
   if (detailStatus === 'loading') {
     return <h1 className={styles.loading}>Loading...</h1>;

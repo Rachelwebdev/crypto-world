@@ -15,7 +15,7 @@ function HomePageNav() {
         <img
           src={logo}
           alt="logo"
-          width="100px"
+          width="70px"
           className={styles.logo}
         />
 

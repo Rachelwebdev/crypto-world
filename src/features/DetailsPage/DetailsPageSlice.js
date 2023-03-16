@@ -11,7 +11,7 @@ export const fetchDetails = createAsyncThunk(
 );
 
 const initialState = {
-  coins: [],
+  detail: [],
   status: 'idle',
   error: null,
 };
@@ -28,7 +28,7 @@ const detailsSlice = createSlice({
       }))
       .addCase(fetchDetails.fulfilled, (state, action) => ({
         ...state,
-        detail: action.payload,
+        detail: action.payload.coin,
         status: 'succeeded',
       }))
       .addCase(fetchDetails.rejected, (state, action) => ({

@@ -24,7 +24,7 @@ function DetailsPageNav() {
               className={styles.logo}
               src={logo}
               alt="logo"
-              width="100px"
+              width="70px"
             />
           </div>
         </div>
