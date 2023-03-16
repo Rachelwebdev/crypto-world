@@ -20,7 +20,7 @@ function HomePageNav() {
         />
 
         <div className={styles.icons}>
-          <div>
+          <div className={styles.iconOne}>
             <BiMicrophone />
           </div>
           <div>
@@ -30,10 +30,10 @@ function HomePageNav() {
       </nav>
       <section className={styles.heroSection}>
         <div className={styles.heroSectionText}>
-          <div>Coin Wallet</div>
+          <div>Coin Metrics Data</div>
           <div className={styles.coinLength}>
             {coins.length}
-            Coins Listed
+            <span className={styles.coinSpan}>Coins Listed</span>
           </div>
         </div>
       </section>

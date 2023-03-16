@@ -1,0 +1,85 @@
+.detailsContainer {
+  margin-top: 2rem;
+}
+
+.loading {
+  color: rgb(246, 93, 118);
+}
+
+.heroSection {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  background-color: rgb(246, 93, 118);
+}
+
+.heroSectionText {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  font-size: 25px;
+  font-weight: 900;
+  font-family: 'Roboto Slab', serif;
+  color: #fff;
+}
+
+.ptag {
+  font-size: 15px;
+  font-weight: normal;
+  color: #fff;
+}
+
+.coinDetailsHeader {
+  padding: 5px 10px;
+  background: rgb(0, 0, 0);
+  color: rgb(246, 93, 118);
+  text-align: left;
+  border-bottom: 2px solid rgb(246, 93, 118);
+  border-top: 2px solid rgb(246, 93, 118);
+}
+
+.coinDetailsInfo {
+  background: rgb(8, 8, 8);
+  padding: 10px 20px;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 0 0 10px 0;
+}
+
+tr td:first-child {
+  color: rgb(253, 252, 249);
+  font-size: 12px;
+  font-weight: 900;
+  text-align: left;
+  font-family: 'Roboto Slab', serif;
+}
+
+tr td:last-child {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 900;
+  font-family: 'Roboto Slab', serif;
+}
+
+.coinDetailsInfo ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 10px 0;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.detailsIcons {
+  font-size: 20px;
+  cursor: pointer;
+  color: #fff;
+}

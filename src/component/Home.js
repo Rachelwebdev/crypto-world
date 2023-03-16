@@ -29,7 +29,7 @@ function Home() {
   };
 
   if (coinsStatus === 'loading') {
-    return <div>Loading...</div>;
+    return <h1 className={styles.loading}>Loading...</h1>;
   }
 
   if (coinsStatus === 'failed') {
@@ -71,6 +71,10 @@ function Home() {
                 key={data.id}
                 className={styles.coinCard}
               >
+                <BsArrowUpRightSquare
+                  className={styles.arrowIcon}
+                  onClick={() => clickArrow(data.id)}
+                />
                 <img
                   src={data.icon}
                   alt="coin logo"
@@ -78,11 +82,10 @@ function Home() {
                 />
                 <div className={styles.description}>
                   <h2 className={styles.coinName}>{data.name}</h2>
-                  <h4 className={styles.coinPrice}>{data.price}</h4>
-                  <BsArrowUpRightSquare
-                    className={styles.arrowIcon}
-                    onClick={() => clickArrow(data.id)}
-                  />
+                  <h4 className={styles.coinPrice}>
+                    <span className={styles.dollarSign}>$</span>
+                    {data.price}
+                  </h4>
                 </div>
               </div>
             ))}
