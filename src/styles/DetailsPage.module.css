@@ -33,15 +33,15 @@
 
 .coinDetailsHeader {
   padding: 5px 10px;
-  background: rgb(0, 0, 0);
-  color: rgb(246, 93, 118);
+  background: rgb(246, 93, 118);
+  color: #fff;
   text-align: left;
-  border-bottom: 2px solid rgb(246, 93, 118);
-  border-top: 2px solid rgb(246, 93, 118);
+  border-bottom: 2px solid #fff;
+  border-top: 2px solid #fff;
 }
 
 .coinDetailsInfo {
-  background: rgb(8, 8, 8);
+  background: rgb(246, 93, 118);
   padding: 10px 20px;
 }
 
