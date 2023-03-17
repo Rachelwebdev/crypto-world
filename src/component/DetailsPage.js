@@ -46,7 +46,6 @@ function DetailsPage() {
                 <div>{detail.name}</div>
                 <div className={styles.ptag}>
                   <div>{detail.symbol}</div>
-                  {/* {detail.market_data.current_price.usd} */}
                 </div>
               </div>
             </div>
