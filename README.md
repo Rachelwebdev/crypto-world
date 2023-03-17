@@ -24,7 +24,7 @@
 
 # 📖 React Capstone <a name="about-project"></a>
 
-**React Capstone** is a project that checks a list of metrics (numeric values) that is retrieved from an API. The API provides numeric data about a financial modelling
+**React Capstone** is a project that checks a list of metrics (numeric values) that is retrieved from an API. The API provides numeric data about a crypto coins
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -49,7 +49,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo]()
+- [Live Demo](https://crypto-world-bnij.onrender.com)
+- [Live Video](https://www.loom.com/share/7ea460356e2b48e4b506985badb331d2)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
