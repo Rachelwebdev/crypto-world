@@ -6,7 +6,7 @@ import DetailsPage from './component/DetailsPage';
 import Home from './component/Home';
 
 import NotFound from './component/NotFound';
-import { fetchCoins } from './features/HomePage/CoinSlice';
+import { fetchCoins } from './redux/HomePage/CoinSlice';
 
 function App() {
   const dispatch = useDispatch();

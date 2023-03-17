@@ -24,7 +24,7 @@
 
 # 📖 React Capstone <a name="about-project"></a>
 
-**React Capstone** is a project that checks a list of metrics (numeric values) that is retrieved from an API. The API provides numeric data about a financial modelling
+**React Capstone** is a project that checks a list of metrics (numeric values) that is retrieved from an API. The API provides numeric data about a crypto coins
 
 ## 🛠 Built With <a name="built-with"></a>
 

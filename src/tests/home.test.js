@@ -3,7 +3,7 @@ import { render } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import Home from '../component/DetailsPage';
-import store from '../features/store';
+import store from '../redux/store';
 
 describe('Home Test', () => {
   test('to render each coin details: ', () => {

@@ -7,7 +7,7 @@ import {
   selectDetails,
   selectDetailsStatus,
   selectDetailsError,
-} from '../features/DetailsPage/DetailsPageSlice';
+} from '../redux/DetailsPage/DetailsPageSlice';
 
 function DetailsPage() {
   const detail = useSelector(selectDetails);

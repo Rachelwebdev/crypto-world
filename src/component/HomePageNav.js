@@ -4,7 +4,7 @@ import { BiMicrophone } from 'react-icons/bi';
 import { useSelector } from 'react-redux';
 import styles from '../styles/HomePageNav.module.css';
 import logo from '../assets/cryptoLogo.jpg';
-import { selectCoins } from '../features/HomePage/CoinSlice';
+import { selectCoins } from '../redux/HomePage/CoinSlice';
 
 function HomePageNav() {
   const coins = useSelector(selectCoins);

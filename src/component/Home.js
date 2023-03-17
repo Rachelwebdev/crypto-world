@@ -3,13 +3,13 @@ import { useNavigate, useSearchParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { BsArrowUpRightSquare } from 'react-icons/bs';
 import styles from '../styles/Home.module.css';
-import { fetchDetails } from '../features/DetailsPage/DetailsPageSlice';
+import { fetchDetails } from '../redux/DetailsPage/DetailsPageSlice';
 import {
   fetchCoins,
   selectCoins,
   selectCoinsError,
   selectCoinsStatus,
-} from '../features/HomePage/CoinSlice';
+} from '../redux/HomePage/CoinSlice';
 import HomePageNav from './HomePageNav';
 
 function Home() {
